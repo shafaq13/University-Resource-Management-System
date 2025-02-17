@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roles</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="roles-style.css"> 
+</head>
+<body>
+    <div class="content-container">
+        <div class="text-container">
+            <h1>What Is Your Role?</h1>
+            <div class="role-description">
+                <button class="role-btn" onclick="location.href='login.php?privilege=1';">Admin</button>
+                <p>Manage system settings and users.</p>
+            </div>
+            <div class="role-description">
+                <button class="role-btn" onclick="location.href='login.php?privilege=2';">Teacher</button>
+                <p>Access and manage courses, assignments and other resources.</p>
+            </div>
+            <div class="role-description">
+                <button class="role-btn" onclick="location.href='login.php?privilege=3';">Student</button>
+                <p>View courses, assignments and other resources.</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="graphic.png" alt="Graphics" />
+        </div>
+    </div>
+</body>
+</html>

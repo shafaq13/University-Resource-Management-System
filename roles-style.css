@@ -1,0 +1,84 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* Gradient background */
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 0 120px;
+}
+
+.text-container {
+  width: 48%; 
+  padding-left: 2%; /* Add some padding to create space */
+  border: 2px solid #ffffff; /* This adds a white border;*/
+  border-radius: 10px;
+  box-sizing: border-box; /* This ensures that padding and border are included in the width */
+  background-color: rgba(255, 255, 255, 0.133);
+  backdrop-filter: blur(10px); /* This applies the blur effect */
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+}
+
+.role-description {
+  margin-bottom: 10px; /* This reduces the space between the role descriptions */
+}
+
+.text-container h1{
+    font-size: 2rem; 
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.text-container p{
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+
+.role-btn {
+  background-color: #6f42c1; /* Purple button */
+  color: white;    
+  padding: 15px 30px;
+  font-size: 14px; 
+  font-weight: 500;
+  border: none;
+  border-radius: 8px; /* Softer rounded corners for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Add transform to the transition property */
+}
+
+.role-btn:hover {
+  background-color: #5a36a3; /* Darker purple on hover */
+  transform: scale(1.1); /* Scales the button up slightly on hover */
+}
+
+.image-container {
+  width: 50%; /* Adjust width as necessary */
+  padding-right: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .roles-container {
+      flex-direction: column;
+  }
+  .image-container, .roles-section {
+      flex-basis: 100%;
+  }
+}
+

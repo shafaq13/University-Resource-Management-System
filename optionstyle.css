@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* Gradient background */
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 120px;
+    
+}
+
+.transparent-box {
+    border-radius: 10px;
+    padding: 90px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.133);
+    backdrop-filter: blur(10px); /* This applies the blur effect */
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    margin: 0 10px;
+    border: none;
+    border-radius: 8px; /* Softer rounded corners for buttons */
+    background-color: #6f42c1; /* Purple button */
+    color: white;
+    cursor: pointer;
+    font-size: 18px; 
+    font-weight: 500;
+    outline: none;
+    transition: background-color 0.3s, transform 0.2s; /* Add transform to the transition property */
+    padding: 15px 30px;
+}
+
+.button-container button:hover {
+    background-color: #5a36a3; /* Darker purple on hover */
+    transform: scale(1.1); /* Scales the button up slightly on hover */
+  }
+
+@media (max-width: 768px) {
+    .roles-container {
+        flex-direction: column;
+    }
+    .image-container, .roles-section {
+        flex-basis: 100%;
+    }
+  }

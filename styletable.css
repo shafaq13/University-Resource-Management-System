@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.table-wrapper {
+    max-width: 1400px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 600px; /* Fixed height for the wrapper */
+    overflow-y: auto; /* Add scroll for overflow content */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #84b6de;
+    height: 100%; /* Height relative to its container */
+}
+
+th, td, .edit-btn {
+    color: #000000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: left;
+    padding: 8px;
+    height: 50px; /* Fixed height for table cells */
+}
+
+th {
+    background-color: #469ee7;
+    color: #ffffff;
+}
+
+tr:hover {
+    background-color: #92d6f5;
+}
+
+.update-button {
+    color: #FF0000;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 10px; /* Adds space between the delete and update buttons */
+    display: inline-block;
+}
+
+.update-button:hover {
+    color: #C00;
+}
+
+
+.delete-button {
+    color: #FF0000;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+}
+
+.delete-button:hover {
+    color: #C00;
+}
+
+button {
+    color: #FF0000;
+}

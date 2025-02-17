@@ -1,0 +1,122 @@
+sem1
+Calculus:(lectures,quiz,activity)
+code=MT119
+teacherid:t1005 Nadeem Khan email: nadeem.khan@nu.edu.pk phone: +92 312 3456789
+teacherid:t1006 Asma Masood email: asma.masood@nu.edu.pk phone: +92 321 4567890
+
+
+Applied Physics:(lectures,assignments)
+code=NS1001
+teacherid:t1007 Rabia Tabassum email: rabia.tabassum@nu.edu.pk phone: +92 300 1234567
+teacherid:t1008 Sonia Nasir email: sonia.nasir@nu.edu.pk phone: +92 333 2345678
+ 
+
+Programming Fundamentals
+code=CS118
+teacherid:t1009 Basit Jasani email: basit.jasani@nu.edu.pk phone: +92 345 3456781
+teacherid:t1010 Muhammad Shahzad email: muhammad.shahzad@nu.edu.pk phone: +92 334 4567892
+----------------------------------------------------------
+sem2
+Object Oriented Programming
+code=CS1004
+teacherid:t1011 Abeer Gauher email: abeer.gauher@nu.edu.pk phone: +92 322 5678903
+teacherid:t1012 Farooque Hassan  email: farooque.hassan@nu.edu.pk phone: +92 313 6789012
+
+Digital Logic Design
+code=EE1005
+teacherid:t1013 Aashir Mahboob email: aashir.mahboob@nu.edu.pk phone: +92 314 7890123
+--teacherid:t1014 Rabia Tabassum email: rabia.tabassum@nu.edu.pk phone: +92 315 8901234
+
+
+Computer and Organizational Language
+code=EE2003
+teacherid:t1015 Zakir Hussain email: zakir.hussain@nu.edu.pk phone: +92 316 9012345
+--teacherid:t1016 Aashir Mahboob email: aashir.mahboob@nu.edu.pk phone: +92 317 0123456
+
+---------------------------------------------------------
+sem3
+Data Structures
+code=CS2001
+teacherid:t1017 Fahad Sherwani email: fahad.sherwani@nu.edu.pk phone: +92 318 1234560
+teacherid:t1018 Anaum Qureshi email: anaum.qureshi@nu.edu.pk phone: +92 319 2345601
+
+Linear Algebra
+code=MT104
+teacherid:t1000 Fareeha Sultan email: fareeha.sultan@nu.edu.pk phone: +92 320 3456012
+t--eacherid:t1001 Nadeem Khan email: nadeem.khan@nu.edu.pk phone: +92 323 4560123
+
+Discrete Structures
+code=CS211
+teacherid:t1002 Shoaib Raza email: shoaib.raza@nu.edu.pk phone: +92 324 5601234
+teacherid:t1003 Fahad Samad email: fahad.samad@nu.edu.pk phone: +92 325 6012345
+
+--------------------------------------------------------
+sem4
+Operating System
+code=CS220
+--teacherid:t1004 Anaum Qureshi email: anaum.qureshi@nu.edu.pk phone: +92 326 0123457
+teacherid:t1019 Abdul Rahman email: abdul.rahman@nu.edu.pk phone: +92 327 1234578
+
+Numerical Computing
+code=CS325
+teacherid:t1020 Usama Antuley email: usama.antuley@nu.edu.pk phone: +92 328 2345789
+teacherid:t1021 Khusro Mian email: khusro.mian@nu.edu.pk phone: +92 329 3456890
+
+Theory of Automata
+code=CS3005
+--teacherid:t1022 Muhammad Shahzad email: muhammad.shahzad@nu.edu.pk phone: +92 330 4567901
+teacherid:t1022 Bakhtawer Abbasi email: bakhtawer.abbasi@nu.edu.pk phone: +92 331 5678902
+-------------------------------------------------------
+sem5
+Database System
+code=CS2005
+teacherid:t1024 Fizza Mansoor email: fizza.mansoor@nu.edu.pk phone: +92 335 7890124
+--teacherid:t1025 Anaum Qureshi email: anaum.qureshi@nu.edu.pk phone: +92 332 6789013
+
+Graph Theory
+code=MT3001
+teacherid:t1026 Nazish Kanwal email: nazish.kanwal@nu.edu.pk phone: +92 337 9012346
+--teacherid:t1027 Usama Antuley email: usama.antuley@nu.edu.pk phone: +92 336 8901235
+
+Software Design and Analysis
+code=CS3004
+teacherid:t1028 Nida Munawar email: nida.munawar@nu.edu.pk phone: +92 338 0123458
+teacherid:t1029 Javeria Farooq email: javeria.farooq@nu.edu.pk phone: +92 339 1234569
+------------------------------------------------------
+sem6
+Computer Networks
+code=CS307
+teacherid:t1030 Ghufran Ahmed email: ghufran.ahmed@nu.edu.pk phone: +92 341 3456712
+teacherid:t1031 Hassan Jamil email: hassan.jamil@nu.edu.pk phone: +92 340 2345671
+
+Artifical Intelligence
+code=CS401
+--teacherid:t1032 Fahad Sherwani email: fahad.sherwani@nu.edu.pk phone: +92 342 4567123
+teacherid:t1033 Saeeda Kanwal email: saeeda.kanwal@nu.edu.pk phone: +92 343 5671234
+
+Technical Business Writing
+code=SS108
+teacherid:t1034 Atifa Batool email: atifa.batool@nu.edu.pk phone: +92 344 6712345
+teacherid:t1035 Nazia Imam email: nazia.batool@nu.edu.pk phone: +92 346 7123456
+-----------------------------------------------------
+sem7
+Information Security
+code=CS3001
+--teacherid:t1036 Fahad Samad email: fahad.samad@nu.edu.pk phone: +92 347 1234562
+teacherid: t1032 Nadeem Kafi email:nadeem.kafi@nu.edu.pk phone:0342-4567123
+
+Information Processing Techniques
+code=CS4042
+teacherid:t1037 Abeeha Sattar email: abeeha.sattar@nu.edu.pk phone: +92 348 2345623
+
+----------------------------------------------------
+sem8
+Business Analytics Techniques
+code=CS4046
+teacherid:t1038 Shams Malick email: shama.malick@nu.edu.pk phone: +92 349 3456234
+teacherid:t1039 Rauf Ahmed email: rauf.ahmed@nu.edu.pk phone: +92 349 3456234
+
+Design Defects and Reconstructing
+SE4031
+teacherid:t1040 Rahim Hasnani email: rahim.hasnani@nu.edu.pk phone: +92 350 4562345
+

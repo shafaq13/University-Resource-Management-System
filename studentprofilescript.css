@@ -1,0 +1,57 @@
+/* Style for the header */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Style for the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the student information section */
+.student-info {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the button */
+#detailsButton {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Style for the additional details section */
+#additionalDetails {
+    background-color: #f1c40f;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Hide the additional details by default */
+.hidden {
+    display: none;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}

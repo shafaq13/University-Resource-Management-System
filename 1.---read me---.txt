@@ -1,0 +1,37 @@
+-> http://localhost/Project/homepage.html
+
+
+Files folder contain proposal, schema and ERD(entity relation diagram)
+PDFS folder contain resources 
+
+
+Extract Project folder in C:\xampp\htdocs
+
+
+
+Test Cases For Login 
+Admin
+username= 3178
+password= fast1234
+
+username= 3198
+password= fast1234
+
+*******************
+
+Teacher
+username= t10011
+password= Fast1234
+
+username= t10005
+password= Fast1234
+
+*******************
+
+Student
+username= k201316
+password= Pass_4693
+
+username= k212268
+password= Pass_1608
+

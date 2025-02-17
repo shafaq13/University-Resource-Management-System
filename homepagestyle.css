@@ -1,0 +1,74 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Use Poppins as it's imported in HTML */
+
+  background: linear-gradient(to bottom right, #0052D4, #65C7F7, #9CECFB); /* Gradient background */
+}
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Changed to space-between */
+    height: 90%;
+    
+  }
+
+  .image-section {
+    width: 50%; 
+    padding-right: 2%; /* Add some padding to create space */
+  }
+
+  .text-section {
+    width: 48%; 
+    padding-left: 0%; 
+    height: 70%; /* Add some padding to create space */
+    border: 2px solid #ffffff; /* This adds a white border;*/
+    border-radius: 10px;
+    box-sizing: border-box; /* This ensures that padding and border are included in the width */
+    background-color: rgba(255, 255, 255, 0.133);
+    backdrop-filter: blur(10px); /* This applies the blur effect */
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-section h1 {
+    font-size: 3rem; /* Adjusted size for better layout */
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .text-section p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  .btn {
+    background-color: #6f42c1; /* Purple button */
+    color: white;    
+    padding: 15px 30px;
+    font-size: 1.2rem; /* Larger font size for buttons */
+    font-weight: 600;
+    border: none;
+    border-radius: 8px; /* Softer rounded corners for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Add transform to the transition property */
+  }
+  
+  .btn:hover {
+    background-color: #5a36a3; /* Darker purple on hover */
+    transform: scale(1.1); /* Scales the button up slightly on hover */
+  }
+
+  @media (max-width: 768px) {
+    .role-text { width: 80%; } /* More width for smaller screens */
+  }
+  
